@@ -797,7 +797,12 @@ def render_performance(active_tab):
 # ─────────────────────────────────────────────────────────────────────────────
 # RUN
 # ─────────────────────────────────────────────────────────────────────────────
+
+import dash
+
+app = dash.Dash(__name__)
 server = app.server
+
 if __name__ == "__main__":
     print("\n" + "=" * 60)
     print("  Starting dashboard server...")
