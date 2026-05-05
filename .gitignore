@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large raw data files (keep only what dashboard needs)
+data/raw/crime_data_london_raw.csv
+data/raw/crime_data_checkpoint.csv
+data/raw/crime_categories_by_borough.csv
+
+# OS files
+Thumbs.db
